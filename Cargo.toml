@@ -1,0 +1,17 @@
+[package]
+name = "dns-rust-thing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+etherparse = "0.13.0"
+mikrotik_api = { git = "https://github.com/Nic0w/mikrotik-api-rs", version = "0.3.0" }
+pcap = "1.1.0"
+regex = "1.9.4"
+retainer = "0.3.0"
+serde = "1.0.188"
+simple-dns = "0.5.3"
+tokio = "1.32.0"
